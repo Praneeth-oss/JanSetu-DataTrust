@@ -1,0 +1,51 @@
+record_id,full_name,age,state,department,annual_income,service_requests,registration_date,email,phone,anomaly_flag,anomaly_score
+JS00719,Rahul Reddy,75.0,Telangana,Education,85016.72,24,2025-09-17,rahul.reddy719@example.org,9113107987.0,True,-0.0742
+JS00362,Arjun Nair,75.0,Andhra Pradesh,Education,1447136.23,25,2026-02-26,arjun.nair362@example.org,9163657733.0,True,-0.0643
+JS00298,Kavya Patel,73.0,Karnataka,Rural Development,1438968.06,0,2025-08-05,kavya.patel298@example.org,9304036387.0,True,-0.0633
+JS00617,Kavya Kumar,75.0,Maharashtra,Transport,1103195.67,25,2026-05-14,kavya.kumar617@example.org,9422159250.0,True,-0.0351
+JS00731,Rahul Gupta,32.0,Karnataka,Education,82244.9,0,2026-04-22,rahul.gupta731@example.org,9771583357.0,True,-0.0331
+JS00271,Ananya Kumar,26.0,Tamil Nadu,Rural Development,1408872.05,0,2025-09-25,ananya.kumar271@example.org,9511859868.0,True,-0.0309
+JS00983,Rohan Sharma,18.0,Tamil Nadu,Health,98892.53,20,2026-05-04,rohan.sharma983@example.org,9594096279.0,True,-0.0302
+JS00134,Rahul Reddy,75.0,Andhra Pradesh,Rural Development,1199826.89,1,2026-08-17,rahul.reddy134@example.org,9491766764.0,True,-0.0292
+JS00847,Ananya Patel,75.0,Tamil Nadu,Health,193841.97,5,2025-10-23,ananya.patel847@example.org,9182621546.0,True,-0.0283
+JS00023,Rohan Verma,25.0,Telangana,Education,170916.77,0,2026-07-22,rohan.verma23@example.org,9347083812.0,True,-0.0242
+JS00308,Kavya Sharma,18.0,Maharashtra,Transport,664100.68,0,2026-06-27,kavya.sharma308@example.org,9875448533.0,True,-0.0231
+JS00635,Aarav Das,69.0,Karnataka,Transport,408325.86,0,2026-07-16,aarav.das635@example.org,9501197060.0,True,-0.0202
+JS00007,Priya Reddy,20.0,Telangana,Rural Development,1479014.56,7,2025-04-14,priya.reddy7@example.org,9508157429.0,True,-0.0197
+JS00610,Aarav Nair,69.0,Tamil Nadu,Social Welfare,1414309.28,1,2026-05-30,aarav.nair610@example.org,9472898686.0,True,-0.0197
+JS00149,Rahul Reddy,60.0,Andhra Pradesh,Education,101101.66,25,2025-09-01,rahul.reddy149@example.org,9732276010.0,True,-0.0181
+JS00223,Rahul Reddy,46.0,Telangana,Social Welfare,1496112.61,25,2025-11-24,rahul.reddy223@example.org,9817087513.0,True,-0.0147
+JS00511,Vikram Das,20.0,Maharashtra,Transport,80241.0,2,2025-11-08,vikram.das511@example.org,9645823493.0,True,-0.0144
+JS00148,Rahul Gupta,18.0,Karnataka,Education,1482288.77,17,2025-09-14,rahul.gupta148@example.org,9957397689.0,True,-0.0142
+JS00382,Rohan Kumar,66.0,Tamil Nadu,Health,103698.95,2,2025-01-15,rohan.kumar382@example.org,9381519299.0,True,-0.0133
+JS00214,Ananya Das,23.0,Tamil Nadu,Transport,1493039.39,5,2026-07-13,ananya.das214@example.org,9415429295.0,True,-0.0129
+JS00800,Aarav Reddy,22.0,Maharashtra,Rural Development,1183676.77,0,2026-05-25,aarav.reddy800@example.org,9259831058.0,True,-0.0125
+JS00302,Aarav Gupta,73.0,Telangana,Education,103032.26,17,2026-08-22,aarav.gupta302@example.org,9721849977.0,True,-0.0118
+JS00449,Rahul Patel,69.0,Telangana,Education,140599.78,2,2026-03-22,rahul.patel449@example.org,9316809172.0,True,-0.0116
+JS00369,Ananya Verma,19.0,Andhra Pradesh,Education,706626.05,0,2026-03-15,ananya.verma369@example.org,9317237515.0,True,-0.0111
+JS00886,Rohan Gupta,21.0,Tamil Nadu,Health,1370111.6,1,2025-03-09,rohan.gupta886@example.org,9423889716.0,True,-0.0109
+JS00065,Rohan Verma,75.0,Telangana,Social Welfare,719099.06,24,2025-09-11,rohan.verma65@example.org,9784683755.0,True,-0.0104
+JS00146,Kavya Reddy,60.0,Telangana,Transport,1458952.5,1,2025-12-08,kavya.reddy146@example.org,9361530104.0,True,-0.01
+JS00132,Vikram Singh,18.0,Maharashtra,Health,1373076.07,23,2026-05-24,vikram.singh132@example.org,9994253959.0,True,-0.0098
+JS00708,Sneha Verma,74.0,Telangana,Social Welfare,654910.81,1,2026-01-25,sneha.verma708@example.org,9873309842.0,True,-0.0095
+JS00282,Vikram Rao,62.0,Andhra Pradesh,Transport,1491655.6,2,2026-04-29,vikram.rao282@example.org,9134075063.0,True,-0.0091
+JS00928,Aarav Patel,28.0,Karnataka,Education,121381.45,25,2025-10-12,aarav.patel928@example.org,9807242295.0,True,-0.0086
+JS00696,Aarav Singh,74.0,Tamil Nadu,Health,1420674.11,8,2025-08-19,aarav.singh696@example.org,9262895422.0,True,-0.0085
+JS00487,Kavya Rao,66.0,Telangana,Education,1426279.78,25,2026-02-18,kavya.rao487@example.org,9120535029.0,True,-0.0078
+JS00196,Aarav Verma,73.0,Karnataka,Transport,1406696.85,22,2026-06-13,aarav.verma196@example.org,9233871736.0,True,-0.0068
+JS00508,Ananya Verma,38.0,Telangana,Rural Development,1457605.97,1,2026-06-04,ananya.verma508@example.org,9339129305.0,True,-0.0067
+JS00305,Rahul Nair,49.0,Telangana,Transport,1486259.43,1,2026-06-21,rahul.nair305@example.org,9136317983.0,True,-0.0058
+JS00987,Ananya Singh,67.0,Tamil Nadu,Education,753064.5,0,2025-04-30,ananya.singh987@example.org,9278354412.0,True,-0.0058
+JS00014,Ananya Sharma,73.0,Andhra Pradesh,Education,970973.38,25,2026-03-09,ananya.sharma14@example.org,9740389325.0,True,-0.0055
+JS00024,Meera Patel,18.0,Andhra Pradesh,Health,405097.33,1,2025-12-05,meera.patel24@example.org,9176082500.0,True,-0.0054
+JS00093,Rahul Singh,18.0,Maharashtra,Education,469522.08,1,2026-07-21,rahul.singh93@example.org,9413679331.0,True,-0.0053
+JS00385,Ananya Singh,23.0,Maharashtra,Education,1463525.01,4,2026-07-04,ananya.singh385@example.org,9450845460.0,True,-0.0051
+JS00771,Vikram Kumar,23.0,Telangana,Social Welfare,1301416.92,25,2026-03-12,vikram.kumar771@example.org,9769207967.0,True,-0.0051
+JS00995,Kavya Kumar,74.0,Karnataka,Social Welfare,1442920.78,21,2026-01-04,kavya.kumar995@example.org,9954669136.0,True,-0.0047
+JS00205,Meera Das,29.0,Andhra Pradesh,Transport,1464009.38,2,2026-06-23,meera.das205@example.org,9684203557.0,True,-0.0044
+JS00595,Aarav Patel,72.0,Maharashtra,Rural Development,356540.02,25,2026-06-07,aarav.patel595@example.org,9653850668.0,True,-0.0044
+JS00620,Rohan Nair,69.0,Karnataka,Rural Development,108166.17,3,2025-12-26,rohan.nair620@example.org,9829699746.0,True,-0.0043
+JS00432,Rahul Reddy,70.0,Karnataka,Social Welfare,96181.78,6,2025-09-13,rahul.reddy432@example.org,9844292151.0,True,-0.0032
+JS00810,Rohan Kumar,65.0,Maharashtra,Education,1393238.45,1,2025-05-25,rohan.kumar810@example.org,9624946696.0,True,-0.0032
+JS00544,Ananya Kumar,19.0,Tamil Nadu,Rural Development,133798.57,2,2025-02-25,ananya.kumar544@example.org,9291117627.0,True,-0.0031
+JS00421,Priya Gupta,72.0,Tamil Nadu,Rural Development,1407992.57,5,2025-06-30,priya.gupta421@example.org,9353994846.0,True,-0.0022

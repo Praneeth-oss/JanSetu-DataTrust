@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SchemaSense Data Quality Report</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 40px; }
+h1 { margin-bottom: 5px; }
+.card { display: inline-block; padding: 18px; margin: 8px;
+         border: 1px solid #ddd; border-radius: 8px; }
+table { border-collapse: collapse; width: 100%; margin-top: 25px; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+th { background: #f2f2f2; }
+</style>
+</head>
+<body>
+<h1>SchemaSense — Automated Dataset Profile</h1>
+<p>Schema and data-quality assessment generated from the supplied dataset.</p>
+
+<div class="card"><b>Records</b><br>1000</div>
+<div class="card"><b>Columns</b><br>10</div>
+<div class="card"><b>Missing Cells</b><br>12</div>
+<div class="card"><b>Completeness</b><br>99.88%</div>
+
+<table>
+<tr>
+<th>Column</th>
+<th>Detected Type</th>
+<th>Records</th>
+<th>Missing</th>
+<th>Missing %</th>
+<th>Unique Values</th>
+<th>Governance Flag</th>
+</tr>
+
+        <tr>
+            <td>record_id</td>
+            <td>Text</td>
+            <td>1000</td>
+            <td>0</td>
+            <td>0.0%</td>
+            <td>1000</td>
+            <td>No obvious flag</td>
+        </tr>
+        
+        <tr>
+            <td>full_name</td>
+            <td>Categorical</td>
+            <td>1000</td>
+            <td>0</td>
+            <td>0.0%</td>
+            <td>100</td>
+            <td>Potential Personal Data</td>
+        </tr>
+        
+        <tr>
+            <td>age</td>
+            <td>Numeric</td>
+            <td>1000</td>
+            <td>2</td>
+            <td>0.2%</td>
+            <td>58</td>
+            <td>No obvious flag</td>
+        </tr>
+        
+        <tr>
+            <td>state</td>
+            <td>Categorical</td>
+            <td>1000</td>
+            <td>2</td>
+            <td>0.2%</td>
+            <td>5</td>
+            <td>No obvious flag</td>
+        </tr>
+        
+        <tr>
+            <td>department</td>
+            <td>Categorical</td>
+            <td>1000</td>
+            <td>0</td>
+            <td>0.0%</td>
+            <td>5</td>
+            <td>No obvious flag</td>
+        </tr>
+        
+        <tr>
+            <td>annual_income</td>
+            <td>Numeric</td>
+            <td>1000</td>
+            <td>3</td>
+            <td>0.3%</td>
+            <td>997</td>
+            <td>Potential Financial Data</td>
+        </tr>
+        
+        <tr>
+            <td>service_requests</td>
+            <td>Numeric</td>
+            <td>1000</td>
+            <td>0</td>
+            <td>0.0%</td>
+            <td>26</td>
+            <td>No obvious flag</td>
+        </tr>
+        
+        <tr>
+            <td>registration_date</td>
+            <td>Date</td>
+            <td>1000</td>
+            <td>0</td>
+            <td>0.0%</td>
+            <td>489</td>
+            <td>No obvious flag</td>
+        </tr>
+        
+        <tr>
+            <td>email</td>
+            <td>Text</td>
+            <td>1000</td>
+            <td>4</td>
+            <td>0.4%</td>
+            <td>996</td>
+            <td>Potential Personal Data</td>
+        </tr>
+        
+        <tr>
+            <td>phone</td>
+            <td>Numeric</td>
+            <td>1000</td>
+            <td>1</td>
+            <td>0.1%</td>
+            <td>999</td>
+            <td>Potential Personal Data</td>
+        </tr>
+        
+</table>
+
+<p>
+<b>Note:</b> Governance flags are heuristic indicators for analyst review;
+they are not legal classifications.
+</p>
+</body>
+</html>

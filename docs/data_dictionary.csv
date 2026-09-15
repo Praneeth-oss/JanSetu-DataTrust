@@ -1,0 +1,11 @@
+column_name,data_type,record_count,missing_count,missing_percentage,unique_values,example_value
+record_id,str,1000,0,0.0,1000,JS00001
+full_name,str,1000,0,0.0,100,Ananya Sharma
+age,float64,1000,2,0.2,58,65.0
+state,str,1000,2,0.2,5,Karnataka
+department,str,1000,0,0.0,5,Education
+annual_income,float64,1000,3,0.3,997,396959.25
+service_requests,int64,1000,0,0.0,26,23
+registration_date,str,1000,0,0.0,489,2025-04-15
+email,string,1000,4,0.4,996,ananya.sharma1@example.org
+phone,string,1000,1,0.1,999,9826600539

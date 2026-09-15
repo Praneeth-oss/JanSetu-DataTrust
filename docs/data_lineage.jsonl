@@ -1,0 +1,4 @@
+{"timestamp_utc": "2026-09-12T18:43:55.313163+00:00", "operation": "INGESTION", "input_records": 1003, "output_records": 1003, "records_affected": 0, "reason": "Loaded synthetic public-sector records for quality assessment."}
+{"timestamp_utc": "2026-09-12T18:43:55.313163+00:00", "operation": "CLEANING", "input_records": 1003, "output_records": 1000, "records_affected": 3, "reason": "Removed three exact duplicate records."}
+{"timestamp_utc": "2026-09-12T18:43:55.313163+00:00", "operation": "STANDARDIZATION", "input_records": 1000, "output_records": 1000, "records_affected": 6, "reason": "Standardized categories, dates, and invalid values for analyst review."}
+{"timestamp_utc": "2026-09-12T18:43:55.323138+00:00", "operation": "SQL_LOAD", "input_records": 1000, "output_records": 1000, "records_affected": 0, "reason": "Loaded cleaned records into SQLite for analytical queries."}
