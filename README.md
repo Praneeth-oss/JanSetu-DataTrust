@@ -1,64 +1,44 @@
 # JanSetu DataTrust
 
-## AI-Assisted Public-Sector Data Quality & AI Readiness Platform
+### AI-Assisted Public-Sector Data Quality, Governance & AI Readiness Platform
 
-JanSetu DataTrust is an end-to-end data quality, governance, and analytics project designed around a public-sector data workflow.
+JanSetu DataTrust is an end-to-end data quality and governance platform built to demonstrate how messy public-sector datasets can be transformed into reliable, documented, and analysis-ready data assets.
 
-The project uses a deliberately messy **synthetic public-service dataset** and processes it through ingestion, profiling, validation, cleaning, quality assessment, SQL analytics, statistical analysis, anomaly detection, metadata generation, data lineage tracking, and dashboard reporting.
+The project combines **Python, SQL, statistical analysis, machine learning, data governance, metadata generation, and Power BI** into a reproducible data workflow.
 
-The objective is to demonstrate how structured data-quality and governance practices can improve the reliability and readiness of datasets used for analytics and AI workflows.
-
-> **Important:** The dataset used in this project is fully synthetic and does not represent real government data.
+A synthetic public-service dataset is used throughout the project to demonstrate the complete lifecycle from raw data ingestion to quality assessment, anomaly review, governance documentation, and dashboard reporting.
 
 ---
 
-## Project Overview
+## Overview
 
-Public-sector data workflows can involve datasets containing:
+Real-world datasets can contain missing values, duplicate records, invalid fields, inconsistent categories, and incomplete metadata.
 
-- Missing values
-- Duplicate records
-- Invalid values
-- Inconsistent naming
-- Invalid contact information
-- Inconsistent date formats
-- Incomplete metadata
-- Unusual records requiring analyst review
-
-JanSetu DataTrust provides a reproducible workflow for identifying, documenting, cleaning, assessing, and reporting these issues before the data is used for downstream analytics or AI workflows.
-
----
-
-## Project Pipeline
+JanSetu DataTrust addresses these challenges through a structured data-quality pipeline:
 
 ```text
-Synthetic Public-Service Dataset
-              |
-              v
-        Data Ingestion
-              |
-              v
-   Data Profiling & Validation
-              |
-              v
-        Data Cleaning
-              |
-              v
-    Data Quality Assessment
-              |
-              +---------> Data Lineage
-              |
-              v
-      SQLite + SQL Analytics
-              |
-              v
-      Statistical Analysis
-              |
-              v
- AI-Assisted Anomaly Detection
-              |
-              v
-    AI Readiness Assessment
-              |
-              v
-      Excel / Power BI Reporting
+Raw Dataset
+     ↓
+Data Profiling
+     ↓
+Validation
+     ↓
+Data Cleaning
+     ↓
+Quality Assessment
+     ↓
+SQLite Database
+     ↓
+SQL Analytics
+     ↓
+Statistical Analysis
+     ↓
+Anomaly Detection
+     ↓
+Data Governance & Lineage
+     ↓
+AI Readiness Assessment
+     ↓
+Power BI Dashboard
+     ↓
+Documented Data Assets
