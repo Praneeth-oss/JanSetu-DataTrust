@@ -1,6 +1,6 @@
 column,data_type,description,missing_pct,unique_values,governance_flag
 record_id,Text,Detected text field with 1000 records,0.0,1000,No obvious flag
-full_name,Categorical,Detected categorical field with 1000 records,0.0,100,Potential Personal Data
+full_name,Text,Detected text field with 1000 records,0.0,100,Potential Personal Data
 age,Numeric,Detected numeric field with 1000 records,0.2,58,No obvious flag
 state,Categorical,Detected categorical field with 1000 records,0.2,5,No obvious flag
 department,Categorical,Detected categorical field with 1000 records,0.0,5,No obvious flag
@@ -8,4 +8,4 @@ annual_income,Numeric,Detected numeric field with 1000 records,0.3,997,Potential
 service_requests,Numeric,Detected numeric field with 1000 records,0.0,26,No obvious flag
 registration_date,Date,Detected date field with 1000 records,0.0,489,No obvious flag
 email,Text,Detected text field with 1000 records,0.4,996,Potential Personal Data
-phone,Numeric,Detected numeric field with 1000 records,0.1,999,Potential Personal Data
+phone,Text,Detected text field with 1000 records,0.1,999,Potential Personal Data

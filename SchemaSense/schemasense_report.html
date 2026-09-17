@@ -1,39 +1,234 @@
 
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
 <head>
+
 <meta charset="utf-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1">
+
 <title>SchemaSense Data Quality Report</title>
+
 <style>
-body { font-family: Arial, sans-serif; margin: 40px; }
-h1 { margin-bottom: 5px; }
-.card { display: inline-block; padding: 18px; margin: 8px;
-         border: 1px solid #ddd; border-radius: 8px; }
-table { border-collapse: collapse; width: 100%; margin-top: 25px; }
-th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-th { background: #f2f2f2; }
+
+body {
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    background: #f7f8fa;
+    color: #1f2937;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+.subtitle {
+    color: #6b7280;
+    font-size: 16px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(190px, 1fr));
+
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.card-title {
+    color: #6b7280;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.card-value {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.section {
+    background: white;
+    padding: 24px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background: #f3f4f6;
+    font-weight: 600;
+}
+
+tr:hover {
+    background: #f9fafb;
+}
+
+.note {
+    margin-top: 22px;
+    padding: 14px 16px;
+    background: #f3f4f6;
+    border-radius: 8px;
+    color: #4b5563;
+    font-size: 13px;
+}
+
+.footer {
+    margin-top: 24px;
+    color: #9ca3af;
+    font-size: 12px;
+}
+
+@media (max-width: 700px) {
+
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .section {
+        overflow-x: auto;
+    }
+
+}
+
 </style>
+
 </head>
+
 <body>
-<h1>SchemaSense — Automated Dataset Profile</h1>
-<p>Schema and data-quality assessment generated from the supplied dataset.</p>
 
-<div class="card"><b>Records</b><br>1000</div>
-<div class="card"><b>Columns</b><br>10</div>
-<div class="card"><b>Missing Cells</b><br>12</div>
-<div class="card"><b>Completeness</b><br>99.88%</div>
+<div class="container">
 
-<table>
-<tr>
-<th>Column</th>
-<th>Detected Type</th>
-<th>Records</th>
-<th>Missing</th>
-<th>Missing %</th>
-<th>Unique Values</th>
-<th>Governance Flag</th>
-</tr>
+    <div class="header">
 
+        <h1>
+            SchemaSense — Automated Dataset Profile
+        </h1>
+
+        <div class="subtitle">
+            Schema and data-quality assessment
+            generated from the supplied dataset.
+        </div>
+
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="card-title">
+                Records
+            </div>
+
+            <div class="card-value">
+                1000
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">
+                Columns
+            </div>
+
+            <div class="card-value">
+                10
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">
+                Missing Cells
+            </div>
+
+            <div class="card-value">
+                12
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">
+                Completeness
+            </div>
+
+            <div class="card-value">
+                99.88%
+            </div>
+        </div>
+
+    </div>
+
+    <div class="section">
+
+        <h2>
+            Schema & Governance Profile
+        </h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Column</th>
+                    <th>Detected Type</th>
+                    <th>Records</th>
+                    <th>Missing</th>
+                    <th>Missing %</th>
+                    <th>Unique Values</th>
+                    <th>Governance Flag</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                
         <tr>
             <td>record_id</td>
             <td>Text</td>
@@ -46,7 +241,7 @@ th { background: #f2f2f2; }
         
         <tr>
             <td>full_name</td>
-            <td>Categorical</td>
+            <td>Text</td>
             <td>1000</td>
             <td>0</td>
             <td>0.0%</td>
@@ -126,7 +321,7 @@ th { background: #f2f2f2; }
         
         <tr>
             <td>phone</td>
-            <td>Numeric</td>
+            <td>Text</td>
             <td>1000</td>
             <td>1</td>
             <td>0.1%</td>
@@ -134,11 +329,29 @@ th { background: #f2f2f2; }
             <td>Potential Personal Data</td>
         </tr>
         
-</table>
 
-<p>
-<b>Note:</b> Governance flags are heuristic indicators for analyst review;
-they are not legal classifications.
-</p>
+            </tbody>
+
+        </table>
+
+        <div class="note">
+
+            <strong>Note:</strong>
+            Governance flags are heuristic indicators
+            for analyst review; they are not legal classifications.
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+
+        SchemaSense — Automated Dataset Profiling Utility
+
+    </div>
+
+</div>
+
 </body>
+
 </html>

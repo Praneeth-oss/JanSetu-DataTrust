@@ -1,6 +1,6 @@
 column,data_type,records,missing,missing_pct,unique_values,duplicate_values,governance_flag
 record_id,Text,1000,0,0.0,1000,0,No obvious flag
-full_name,Categorical,1000,0,0.0,100,900,Potential Personal Data
+full_name,Text,1000,0,0.0,100,900,Potential Personal Data
 age,Numeric,1000,2,0.2,58,940,No obvious flag
 state,Categorical,1000,2,0.2,5,993,No obvious flag
 department,Categorical,1000,0,0.0,5,995,No obvious flag
@@ -8,4 +8,4 @@ annual_income,Numeric,1000,3,0.3,997,0,Potential Financial Data
 service_requests,Numeric,1000,0,0.0,26,974,No obvious flag
 registration_date,Date,1000,0,0.0,489,511,No obvious flag
 email,Text,1000,4,0.4,996,0,Potential Personal Data
-phone,Numeric,1000,1,0.1,999,0,Potential Personal Data
+phone,Text,1000,1,0.1,999,0,Potential Personal Data
